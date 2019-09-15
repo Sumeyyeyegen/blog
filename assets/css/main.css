@@ -1,0 +1,70 @@
+        .img{
+            height: 200px;
+            width: 300px;
+        }
+        .a{
+             height: 50px;
+             width: 50px;
+        }
+      .b{
+          height: 50px;
+          width: 30px;
+    
+         }
+        .color{
+    opacity: 0.7;
+         }
+.ikinci_yol {
+  position: relative;
+  height: 59px; 
+  max-width:1000px;
+  overflow:hidden;
+  line-height:19px;
+}
+.ikinci_yol:after {
+  content: "";
+  text-align: right; /* sağa yaslıyoruz */
+  position: absolute; /* absolute - bağımsız değerini veriyoruz */
+  bottom: 0; /* aşağı yaslıyoruz */
+  right: 0; /* sağa yaslıyoruz */
+  width: 50%; /* genişliğin %50'sini alıyoruz */
+  height: 1.2em; /* yüksekliği yazı boyutunuza göre değiştirin */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%); /* soldan transparan bağlayarak sağa doğru beyazlaşan arkaplan*/
+}
+
+
+@media screen and (max-width:500px){
+    .i{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+}
+@media screen and (min-width:1600px){
+    .center{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+}
+       
+.category:link{
+    text-decoration: none;
+    
+}
+
+.category{
+    color: black;
+}
+
+.category:hover{
+    color: dimgray;
+}
+
+.icon{
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}

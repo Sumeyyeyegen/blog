@@ -1,0 +1,176 @@
+.b{
+    height: 50px;
+    width: 30px;
+}
+
+.menu .menuItem {
+  float: left;
+}
+
+.menuItem a {
+  display: block;
+  color: dimgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menuItem a:hover {
+  background-color: lightgray;
+    border: 1px solid light-gray;
+    border-radius: 2px;
+}
+
+.img{
+    width: 200px;
+    height: auto;
+}
+
+@media screen and (max-width:1300px){
+    .scroll{
+        width: 100%;
+        height: auto;
+        overflow-x: auto;
+        display: flex;
+        
+    }
+    .scroll img {
+        margin-right: 5px;
+       
+    }
+}
+.scroll{
+    margin-bottom: 20px;
+}
+ 
+.ikinci_yol {
+  position: relative;
+  height: 59px; 
+  max-width:1000px;
+  overflow:hidden;
+  line-height:19px;
+  text-align: center;
+}
+.ikinci_yol:after {
+  content: "";
+  text-align: right; /* sağa yaslıyoruz */
+  position: absolute; /* absolute - bağımsız değerini veriyoruz */
+  bottom: 0; /* aşağı yaslıyoruz */
+  right: 0; /* sağa yaslıyoruz */
+  width: 50%; /* genişliğin %50'sini alıyoruz */
+  height: 1.2em; /* yüksekliği yazı boyutunuza göre değiştirin */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%); /* soldan transparan bağlayarak sağa doğru beyazlaşan arkaplan*/
+}
+
+h2{
+    text-align: center; 
+    padding-bottom: 30px; 
+    padding-top: 30px;
+    margin-top: 70px;
+}
+
+.about{
+    border: 1px solid black;  
+    height: auto;
+    text-align: center;
+}
+.user{
+    border-radius: 100px; 
+    border: 1px solid black; 
+    
+}
+.sochialMedia{
+    text-align: center;
+    display: inline;
+}
+.paragraph{
+    max-width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.design{
+    width: auto;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.20);
+}
+.paragraph1 {
+       font-size: 14px;
+       font-weight: 700;
+       padding-left: 15px;
+       padding-top: 15px;
+       padding-bottom: 0;
+       margin-bottom: 0;
+   }
+
+   .paragraph2 {
+       font-size: 12px;
+       margin-top: 0;
+       padding-left: 15px;
+       opacity: 0.8;
+   }
+
+   div > button {
+       height: 40px;
+       width: auto;
+   }
+
+   .preview {
+       background-color: white;
+       border: 1px solid gray;
+       border-radius: 3px;
+       font-size: 12px;
+       padding: 10px;
+       font-weight: 700;
+   }
+
+   .preview:hover {
+       background-color: lightgray;
+       color: white;
+       border: 1px solid lightgray;
+}
+
+.shopping-cart1{
+    color: yellowgreen;
+    font-weight: 100;
+    background-color: white;
+    border: none;
+    border: 1px solid yellowgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    height: 40px;
+}
+.shopping-cart1:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.blogImg{
+   width: 100%;
+   height: auto;
+   text-align: center; 
+}
+
+.kisaBlogImage{
+    width: 100%;
+    height: auto;
+}
+@media screen and(max-width:800px){
+    .about{
+        align-items: center;
+    }
+    
+}
+.blogWriting{
+    text-align:center; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.blogImage{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.logo{
+    cursor: pointer;
+}

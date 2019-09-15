@@ -1,0 +1,83 @@
+.b {
+       height: 50px;
+       width: 30px;
+
+   }
+.a{
+    height: 100px;
+    width: 100px;
+}
+.category{
+    font-weight: 200;
+    font-size: 14px;
+    color: #be9656;
+    text-align: center;
+    font-family: inherit;
+    cursor: pointer;
+}
+h4{
+    font-family:inherit;
+    font-weight: 100;
+    text-align: center;
+    color: dimgrey;
+}
+.title_break{
+    border-color: #be9656;
+    width: 70px;
+    
+}
+.date{
+    color: dimgray;
+    text-align: center;
+    font-weight: 200;
+}
+
+.blogImg{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.blogYazi{
+    text-align: center;
+    
+}
+h6{
+    color: #222222;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+}
+
+.menu{
+    list-style: none;
+    margin-left: 20%;
+}
+
+.menuItem{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.date1{
+    padding: 0;
+    margin-top: 0;
+    color: #999;
+    letter-spacing: 0;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Lora, Georgia, serif;
+    font-weight: 100;
+    text-align: justify;
+}
+.post{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}

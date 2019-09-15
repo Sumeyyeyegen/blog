@@ -1,0 +1,74 @@
+.b {
+       height: 50px;
+       width: 30px;
+
+   }
+ 
+.logo{
+    
+}
+#navbarNav{
+    margin-right: auto;
+}
+
+.technologyHead{
+    margin-top: 90px; 
+    padding: 40px; 
+    text-align: center;  
+    border: 1px solid black;
+    font-style: oblique;
+    font-size: 30px;
+    background-color:light;
+}
+.paragraph{
+    text-align: center;
+    max-width: 80%;
+    margin-left: 5%;
+}
+.paragraph1{
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    
+}
+
+.user{
+    border-radius: 100px; 
+    border: 1px solid black; 
+    vertical-align: middle;
+}
+
+.about{
+    border: 1px solid black;  
+    height: auto; 
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.sochialMedia{
+    text-align: center;
+    display: inline;
+}
+
+.kisaBlog{
+    margin-top: 5%;
+}
+.categories div a{
+    text-decoration: none;
+    color: gray;
+}
+
+.categories div a:hover{
+    color: lightgray;
+}
+

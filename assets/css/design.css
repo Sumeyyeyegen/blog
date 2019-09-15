@@ -1,0 +1,135 @@
+   .user {
+       color: #8d8d8d;
+
+   }
+
+   .b {
+       height: 50px;
+       width: 30px;
+
+   }
+
+   .user:hover {
+
+       color: gray;
+
+
+   }
+
+   .user:hover ul a {
+       color: light;
+   }
+
+   .cart {
+       color: #8d8d8d;
+   }
+
+   .cart:hover {
+       color: gray;
+   }
+
+   .userMenu {
+       opacity: 0;
+       visibility: hidden;
+       position: absolute;
+       margin: 5px;
+       padding: 5px;
+       right: 1px;
+       cursor: auto;
+       transition: all 0.3s;
+       background-color: white;
+   }
+
+   .userMenuItem {
+       color: #bdbdbd;
+   }
+
+   .userMenuItem:hover {
+       color: dimgray;
+   }
+
+   .NavList:hover > .userMenu {
+       opacity: 1;
+       visibility: visible;
+
+   }
+
+   .menu {
+       display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   ul {
+       list-style: none;
+       margin: 0;
+       padding: 0;
+
+   }
+
+   .menuItem {
+       flex: 1 0 320px;
+       min-width: 0;
+   }
+
+   .paragraph1 {
+       font-size: 14px;
+       font-weight: 700;
+       padding-left: 15px;
+       padding-top: 15px;
+       padding-bottom: 0;
+       margin-bottom: 0;
+   }
+
+   .paragraph2 {
+       font-size: 12px;
+       margin-top: 0;
+       padding-left: 15px;
+       opacity: 0.8;
+   }
+
+   div > button {
+       height: 40px;
+       width: auto;
+   }
+
+   .preview {
+       background-color: white;
+       border: 1px solid gray;
+       border-radius: 3px;
+       font-size: 12px;
+       padding: 10px;
+       font-weight: 700;
+   }
+
+   .preview:hover {
+       background-color: lightgray;
+       color: white;
+       border: 1px solid lightgray;
+}
+
+.shopping-cart1{
+    color: yellowgreen;
+    font-weight: 100;
+    background-color: white;
+    border: none;
+    border: 1px solid yellowgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    height: 40px;
+}
+.shopping-cart1:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.row{
+    text-align: left;
+   
+}
+
+.logo{
+    cursor: pointer;
+}
